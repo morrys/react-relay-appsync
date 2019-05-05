@@ -11,6 +11,8 @@ yarn add react-relay-upload-s3
 
 ## Usage
 
+How to create the RelayNetworkLayer
+
 ```typescript
 import {uploadS3Middleware} from 'react-relay-upload-s3';
 ```
@@ -24,6 +26,49 @@ const network = new RelayNetworkLayer(
   ],
   {}
 );
+```
+
+How to use in commitMutation
+
+```typescript
+
+    //single file
+    const file:any = {
+      bucket: bucket,
+      key: key,
+      region: region,
+      file: selectedFile
+    };
+
+    commitMutation(
+        ...
+        uploadables: {
+          file
+        },
+    );
+
+    //multiple files
+    const file1:any = {
+      bucket: bucket,
+      key: key1,
+      region: region,
+      file: selectedFile1
+    };
+
+    const file2:any = {
+      bucket: bucket,
+      key: key2,
+      region: region,
+      file: selectedFile2
+    };
+
+    commitMutation(
+        ...
+        uploadables: {
+          file1,
+          file2
+        },
+    );
 ```
 
 ## TODO
