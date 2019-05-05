@@ -1,35 +1,38 @@
 {
-  "name": "react-relay-upload-s3",
+  "name": "react-relay-auth-iam",
   "version": "0.0.1",
   "keywords": [
     "graphql",
     "relay",
-    "upload",
+    "auth",
     "react",
     "aws",
     "appsync",
-    "s3"
+    "iam"
   ],
   "main": "lib/index.js",
   "license": "SEE LICENSE IN LICENSE",
-  "description": "React Relay Middleware Upload S3",
+  "description": "React Relay Middleware Authentication AWS IAM",
   "author": {
     "name": "morrys"
   },
-  "homepage": "https://github.com/morrys/react-relay-upload-s3",
+  "homepage": "https://github.com/morrys/react-relay-appsync#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/morrys/react-relay-upload-s3"
+    "url": "https://github.com/morrys/react-relay-appsync"
   },
   "scripts": {
     "prepare": "tsc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "url": "^0.11.0"
+  },
   "peerDependencies": {
     "react-relay": ">=1.4.0"
   },
   "devDependencies": {
     "typescript": "3.1.1",
+    "@types/node": "^8.10.48",
     "aws-sdk": "^2.449.0",
     "react-relay-network-modern": "^2.5.1"
   }

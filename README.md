@@ -1,84 +1,26 @@
-# [React Relay Upload S3](https://github.com/morrys/react-relay-upload-s3)
-Middleware for Relay Modern Network Layer for upload file to AWS S3
+# [React Relay AppSync](https://github.com/morrys/react-relay-upload-s3)
+AppSync for Relay
 
-## Installation
+## Offline capabilities
 
-Install react-relay-upload-s3 using yarn or npm:
+[React Relay Offline](https://github.com/morrys/react-relay-offline#readme)
 
-```
-yarn add react-relay-upload-s3
-```
+## Usage React Relay Upload S3
 
-## Usage
+[See README.md](./packages/react-relay-upload-s3/README.md)
 
-How to create the RelayNetworkLayer
+## Usage React Relay Authentication AWS IAM
 
-```typescript
-import {uploadS3Middleware} from 'react-relay-upload-s3';
-```
-
-```typescript
-const network = new RelayNetworkLayer(
-  [
-    urlMiddleware(...),
-    uploadS3Middleware({credentials: complexObjectsCredentials}),
-    authMiddleware(...),
-  ],
-  {}
-);
-```
-
-How to use in commitMutation
-
-```typescript
-
-    //single file
-    const file:any = {
-      bucket: bucket,
-      key: key,
-      region: region,
-      file: selectedFile
-    };
-
-    commitMutation(
-        ...
-        uploadables: {
-          file
-        },
-    );
-
-    //multiple files
-    const file1:any = {
-      bucket: bucket,
-      key: key1,
-      region: region,
-      file: selectedFile1
-    };
-
-    const file2:any = {
-      bucket: bucket,
-      key: key2,
-      region: region,
-      file: selectedFile2
-    };
-
-    commitMutation(
-        ...
-        uploadables: {
-          file1,
-          file2
-        },
-    );
-```
+[See README.md](./packages/react-relay-auth-iam/README.md)
 
 ## TODO
 
 Document how to use urlMiddleware and authMiddleware in the context of AWS
 
-Implementation of Middleware for IAM Authentication
+Implementation of Delta Sync
 
 
 ## License
 
-React Relay Upload S3 is [MIT licensed](./LICENSE).
+React Relay AppSync is [MIT licensed](./LICENSE).
 
