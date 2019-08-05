@@ -11,7 +11,7 @@
     "iam"
   ],
   "main": "lib/index.js",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "description": "React Relay Middleware Authentication AWS IAM",
   "author": {
     "name": "morrys"

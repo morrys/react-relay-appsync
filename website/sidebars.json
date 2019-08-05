@@ -1,0 +1,13 @@
+{
+    "docs": {
+        "React Relay AppSync": [
+            "introduction"
+        ],
+        "React Relay Auth IAM": [
+            "react-relay-auth-iam"
+        ],
+        "React Relay Upload S3": [
+            "react-relay-upload-s3"
+        ]
+    }
+}

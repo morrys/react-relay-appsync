@@ -11,7 +11,7 @@
     "s3"
   ],
   "main": "lib/index.js",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "description": "React Relay Middleware Upload S3",
   "author": {
     "name": "morrys"
