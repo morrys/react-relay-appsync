@@ -2,13 +2,13 @@ const siteConfig = {
   title: 'Morrys Website',
   tagline: 'Collection of libraries usable for the web, react and react-native.',
   url: 'https://morrys.github.io',
-  baseUrl: '/react-relay-offline/',
-  projectName: 'react-relay-offline',
+  baseUrl: '/react-relay-appsync/',
+  projectName: 'react-relay-appsync',
   organizationName: 'morrys',
   headerLinks: [
-    { doc: 'react-relay-offline', label: 'Docs' },
+    { doc: 'react-relay-appsync', label: 'Docs' },
     {
-      href: 'https://github.com/morrys/react-relay-offline',
+      href: 'https://github.com/morrys/react-relay-appsync',
       label: 'GitHub',
     },
     { languages: false },
@@ -67,7 +67,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/morrys/react-relay-offline',
+  repoUrl: 'https://github.com/morrys/react-relay-appsync',
 };
 
 module.exports = siteConfig;
