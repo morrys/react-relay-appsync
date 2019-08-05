@@ -7,7 +7,7 @@ AppSync for Relay
 
 ## Offline capabilities
 
-[React Relay Offline](https://morrys/github.com/react-relay-offline/docs/react-relay-offline)
+[React Relay Offline](https://morrys.github.io/react-relay-offline/docs/react-relay-offline)
 
 
 ## TODO
