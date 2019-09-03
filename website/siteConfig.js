@@ -70,10 +70,11 @@ const siteConfig = {
   repoUrl: 'https://github.com/morrys/react-relay-appsync',
 
   algolia: {
-    apiKey: 'f5026a8527dc410b9fdfbda52202b922',
-    indexName: 'relay-tools_react-relay-appsync',
-    placeholder: 'Search',
+    apiKey: '87a72e28932891cac536490e275e834e',
+    indexName: 'morrys',
+    placeholder: 'Search'
   },
+  gaTrackingId: "UA-146953551-1",
 };
 
 module.exports = siteConfig;
