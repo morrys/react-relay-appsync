@@ -1,5 +1,5 @@
 const siteConfig = {
-  title: 'Morrys Website',
+  title: 'Morrys Repositories',
   tagline: 'Collection of libraries usable for the web, react and react-native.',
   url: 'https://morrys.github.io',
   baseUrl: '/react-relay-appsync/',
@@ -68,6 +68,12 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/morrys/react-relay-appsync',
+
+  algolia: {
+    apiKey: 'f5026a8527dc410b9fdfbda52202b922',
+    indexName: 'relay-tools_react-relay-appsync',
+    placeholder: 'Search',
+  },
 };
 
 module.exports = siteConfig;
